@@ -1,6 +1,6 @@
 ﻿syntax = "proto3";
 
-option csharp_namespace = "ProtocolBuffersPlayground";
+option csharp_namespace = "ProtocolBuffers";
 
 message Person {
     string Name = 1;
