@@ -1,6 +1,6 @@
 ﻿using static System.Threading.Thread;
 
-namespace SynchronizationPlayground.ThreadSafety
+namespace Synchronization.ThreadSafety
 {
     internal class ThreadSafetyUsingLock
     {

@@ -1,6 +1,6 @@
-﻿using SynchronizationPlayground.ThreadSafety;
+﻿using Synchronization.ThreadSafety;
 
-namespace SynchronizationPlayground
+namespace Synchronization
 {
     internal class Program
     {
@@ -10,6 +10,7 @@ namespace SynchronizationPlayground
             ThreadSafetyUsingLock.ShowMeBadExample();
 
             await ThreadSafetyUsingSemaphoreSlim.ShowGoodExampleAsync();
+
 
             Console.ReadKey();
         }
